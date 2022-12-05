@@ -1,19 +1,16 @@
 .card {
-  /* display: inline-block; */
-  /* justify-content: flex-end; */
-  /* flex-direction: column; */
-  
   width: fit-content;
   border: 1px solid rgb(0, 0, 0);
   border-radius: 10px;
   padding: 4px;
   background-color: rgb(255, 250, 240);
   box-shadow: 0 0 15px white;  
-
 }
-.card button{
-    display:flex;
+.forButton{
+    display: flex;
     justify-content: flex-end;
+}
+.button{
     background-color: rgb(255, 0, 0);
     color: white;
     border-color: white;
@@ -34,10 +31,9 @@
     width: fit-content;
     padding-left: 5px;
     padding-right: 5px;
-    background-color: rgb(218, 189, 189);
+    background-color: rgba(148, 228, 166, 0.6);
     border-radius: 5px;
-    bottom: -20px
-
+    bottom: -20px;
 }
 .data{
     display: flex;

@@ -1,0 +1,10 @@
+.App {
+    text-align: center;
+    background-image: url("C:\Users\PC\Desktop\rick_and_morty\src\images\rick-y-morty-en-el-espacio_3840x2160_xtrafondos.com.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .principalCard{
+    display: flex;
+    justify-content: center;
+ }

@@ -1,4 +1,5 @@
-import './App.css'
+// import './App.css'
+import styles from "./App.module.css"
 import Card from './components/Card/Card.jsx'
 import Cards from './components/Cards/Cards.jsx'
 import SearchBar from './components/SearchBar/SearchBar.jsx'
@@ -6,8 +7,8 @@ import characters, { Rick } from './data.js'
 
 function App () {
   return (
-    <div className='App' style={{ padding: '25px' }}>
-      <div>
+    <div className={styles.App} style={{ padding: '25px' }}>
+      <div className={styles.principalCard}>
         <Card
           name={Rick.name}
           species={Rick.species}
@@ -17,6 +18,7 @@ function App () {
         />
       </div>
       <hr />
+      
       <div>
         <Cards
           characters={characters}
